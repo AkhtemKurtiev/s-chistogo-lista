@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .content-section_theme_dark {
     background-color: rgba(0, 0, 0, 1);
-    color: white;    
+    color: white;
 }
 
 .content-section_theme_bright {
@@ -91,7 +91,7 @@ header a {
 
 .title_list {
     font-size: 72px;
-    font-family: 'EB Garmond';
+    font-family: 'EB Garamond';
     font-weight:  normal;
     min-width: 100%;
 }
@@ -138,7 +138,7 @@ header a {
 
 .text_why {
     display: block;
-    font-family: 'EB Garmond';
+    font-family: 'EB Garamond';
     font-size: 28px;
     font-weight: 500;
 }
@@ -209,7 +209,7 @@ header a {
 }
 
 .card__title {
-    font-family: 'EB Garmond';
+    font-family: 'EB Garamond';
     font-weight: 500;
     font-size: 22px;
 }
