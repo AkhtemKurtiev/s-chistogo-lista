@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Inter', 'Serif';
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+    margin: 0;
+    padding: 0;
+}
+
+.content-section{
+    width: 360px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.content-section_theme_dark{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;    
+}
+
+.content-section_theme_bright{
+    background-color: rgba(254, 228, 42, 1);
+    color: black;
+}
+
+header{
+    display: flex;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+}
+
+.cover{
+    display: flex;
+    padding: 0 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    min-height: 100%;
+    background-position: right bottom;
+}
+
+.intro{
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+.reasons{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.how-to{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 79.44px;
+    height: 15.432px;
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.title_list {
+    font-size: 72px;
+    font-family: 'EB Garmond', 'sherif';
+    font-weight:  normal;
+    min-width: 100%;
+}
+
+.span_cover {
+    display: block;
+}
+
+.title_s {
+    text-align: left;
+}
+
+.title_clean {
+    text-align: center;
+}
+
+.title_lists {
+    text-align: right;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(204, 204, 204, 1);
+    min-width: 95%
+}
+
+.intro__date {
+    white-space: nowrap;
+}
+
+.intro_text {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    row-gap: 24px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 0;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.text_why {
+    display: block;
+    font-family: 'EB Garmond', 'sherif';
+    font-weight: normal;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.tex_why_right {
+    text-align: right;
+}
+
+.tex_why_left {
+    text-align: left;
+}
+
+.content-section__introduction {
+    font-family: 'Inter', 'Sherif';
+    font-size: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', 'Sherif';
+    gap: 16;
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 21.6px;
+    padding-right: 0px;
+}
+
+.content-section__list-item {
+    line-height: 21.6px;
+    padding-bottom: 16px;
+    padding-right: 0px;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.card {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.card_theme_dark {
+    background-color: rgba(52,52,52);
+}
+
+.card__author {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 20px 0 0 20px;
+}
+
+.card__author-photo {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.author_name {
+    font-weight: 700;
+}
+
+.card__title {
+    font-family: 'EB Garmond', 'Serif';
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.card_contend {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-left: 20px;
+}
+
+.card__text {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    row-gap: 8px;
+    line-height: 21.6px;
+}
+
+.card_theme_bright {
+    background-color: rgba(254,228,42);
+    color: rgba(19, 19, 19, 1)
+}
+
+.card_second {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_nav_ul{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    column-gap: 16px;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 17.5px;
+}
