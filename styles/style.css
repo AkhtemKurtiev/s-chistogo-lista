@@ -1,31 +1,31 @@
 body {
     margin: 0;
     background-color: #1e1e1e;
-    font-family: 'Inter', 'Serif';
+    font-family: 'Inter';
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     margin: 0;
     padding: 0;
 }
 
-.content-section{
+.content-section {
     width: 360px;
     box-sizing: border-box;
     margin: auto;
 }
 
-.content-section_theme_dark{
+.content-section_theme_dark {
     background-color: rgba(0, 0, 0, 1);
     color: white;    
 }
 
-.content-section_theme_bright{
+.content-section_theme_bright {
     background-color: rgba(254, 228, 42, 1);
     color: black;
 }
 
-header{
+header {
     display: flex;
     padding-top: 24px;
     padding-left: 20px;
@@ -34,7 +34,7 @@ header{
     justify-content: space-between;
 }
 
-.cover{
+.cover {
     display: flex;
     padding: 0 20px;
     background-image: url(../images/cover.svg);
@@ -44,13 +44,13 @@ header{
     background-position: right bottom;
 }
 
-.intro{
+.intro {
     padding-top: 0px;
     padding-right: 20px;
     padding-bottom: 4px;
 }
 
-.reasons{
+.reasons {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
@@ -59,39 +59,39 @@ header{
     padding-bottom: 40px;
 }
 
-.how-to{
+.how-to {
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
 }
 
-footer{
+footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header img{
+header img {
     width: 79.44px;
     height: 15.432px;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     text-decoration: underline;
     font-size: 16px;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: white;
 }
 
 .title_list {
     font-size: 72px;
-    font-family: 'EB Garmond', 'sherif';
+    font-family: 'EB Garmond';
     font-weight:  normal;
     min-width: 100%;
 }
@@ -138,8 +138,7 @@ header a{
 
 .text_why {
     display: block;
-    font-family: 'EB Garmond', 'sherif';
-    font-weight: normal;
+    font-family: 'EB Garmond';
     font-size: 28px;
     font-weight: 500;
 }
@@ -153,7 +152,7 @@ header a{
 }
 
 .content-section__introduction {
-    font-family: 'Inter', 'Sherif';
+    font-family: 'Inter';
     font-size: 20px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -162,7 +161,7 @@ header a{
 .content-section__list {
     display: flex;
     flex-direction: column;
-    font-family: 'Inter', 'Sherif';
+    font-family: 'Inter';
     gap: 16;
     font-size: 16px;
     padding-left: 20px;
@@ -210,8 +209,7 @@ header a{
 }
 
 .card__title {
-    font-family: 'EB Garmond', 'Serif';
-    font-weight: normal;
+    font-family: 'EB Garmond';
     font-weight: 500;
     font-size: 22px;
 }
@@ -246,12 +244,12 @@ header a{
     padding-top: 20px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: white;
 }
 
-.footer_nav_ul{
+.footer_nav_ul {
     text-decoration: none;
     color: white;
     display: flex;
